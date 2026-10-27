@@ -1,4 +1,3 @@
-HTML
 <!DOCTYPE html>
 <html lang="es">
 
@@ -8,6 +7,7 @@ HTML
     <meta name="description" content="Consulta el menú y los precios de Sabor Casero en Medellín.">
     <title>Menú y precios | Sabor Casero</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./../styles.css">
 </head>
 
 <body>
@@ -15,9 +15,9 @@ HTML
         <nav class="my-3" aria-label="Menú principal">
             <ul class="nav nav-pills justify-content-center">
                 <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
-                <li class="nav-item"><a class="nav-link active" href="tarifas.html" aria-current="page">Menú y
+                <li class="nav-item"><a class="nav-link active" href="menu.html" aria-current="page">Menú y
                         precios</a></li>
-                <li class="nav-item"><a class="nav-link" href="reservas.html">Pedidos</a></li>
+                <li class="nav-item"><a class="nav-link" href="pedidos.html">Pedidos</a></li>
                 <li class="nav-item"><a class="nav-link" href="formulario.html">Contacto</a></li>
             </ul>
         </nav>
@@ -30,7 +30,7 @@ HTML
             <h2>Almuerzos caseros</h2>
             <table class="table table-striped table-hover table-bordered">
                 <caption class="caption-top">Precios de nuestros almuerzos</caption>
-                <thead class="table-primary">
+                <thead class="table-secondary">
                     <tr>
                         <th scope="col">Plato</th>
                         <th scope="col">Descripción</th>
@@ -61,7 +61,7 @@ HTML
             <h2>Comidas rápidas</h2>
             <table class="table table-striped table-hover table-bordered">
                 <caption class="caption-top">Precios de comidas rápidas</caption>
-                <thead class="table-primary">
+                <thead class="table-secondary">
                     <tr>
                         <th scope="col">Producto</th>
                         <th scope="col">Descripción</th>
@@ -91,7 +91,7 @@ HTML
         <section class="container mt-5">
             <h2>Postres y bebidas</h2>
             <table class="table table-striped table-hover table-bordered">
-                <thead class="table-primary">
+                <thead class="table-secondary">
                     <tr>
                         <th scope="col">Producto</th>
                         <th scope="col">Precio</th>
@@ -126,7 +126,7 @@ HTML
                     <li>Pregunta por el plato especial del día.</li>
                 </ul>
             </aside>
-            <a class="btn btn-primary" href="reservas.html">Hacer un pedido</a>
+            <a class="btn btn-secondary" href="pedidos.html">Hacer un pedido</a>
         </section>
     </main>
 

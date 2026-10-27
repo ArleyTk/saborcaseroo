@@ -9,6 +9,7 @@
     --espacio-grande: 2rem;
 }
 
+
 body {
     background-color: var(--color-fondo);
     color: var(--color-texto);
