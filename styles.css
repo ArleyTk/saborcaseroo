@@ -14,10 +14,21 @@ header {
     max-width: 100%;
 }
 
+header nav ul {
+    max-height: 40px;
+}
+
 header nav ul li {
     display: inline-block;
     padding: 10px;
 
+
+}
+
+@media (min-width: 577px) {
+    header nav ul {
+        max-height: 40px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -28,8 +39,22 @@ header nav ul li {
         max-width: 84px;
     }
 
+    header nav ul {
+        max-height: 70px;
+    }
+
+    .carta {
+        width: 18rem;
+        display: flex;
+        justify-content: center;
+        margin-left: 30px;
+    }
+
 }
 
+.carta {
+    width: 18rem;
+}
 
 
 body {
